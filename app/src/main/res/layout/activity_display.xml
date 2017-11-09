@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hjian.ass4.DisplayActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/testIDDisplay"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.49"
+                android:textSize="32sp"
+                android:text="testID" />
+
+            <TextView
+                android:id="@+id/testIDValue"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.49"
+                android:textSize="32sp"
+                android:text="" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/patientIdDisplay"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.49"
+                android:textSize="32sp"
+                android:text="patientId" />
+
+            <TextView
+                android:id="@+id/patientIdValue"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.49"
+                android:textSize="32sp"
+                android:text="" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/nurseIdDisplay"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.49"
+                android:textSize="32sp"
+                android:text="nurseId" />
+
+            <TextView
+                android:id="@+id/nurseIdValue"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.49"
+                android:textSize="32sp"
+                android:text="" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/BPLDisplay"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.49"
+                android:textSize="32sp"
+                android:text="BPL" />
+
+            <TextView
+                android:id="@+id/BPLValue"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.49"
+                android:textSize="32sp"
+                android:text="" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/BPHDisplay"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.49"
+                android:textSize="32sp"
+                android:text="BPH" />
+
+            <TextView
+                android:id="@+id/BPHValue"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.49"
+                android:textSize="32sp"
+                android:text="" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/temperatureDisplay"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.49"
+                android:textSize="32sp"
+                android:text="temperature" />
+
+            <TextView
+                android:id="@+id/temperatureValue"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.49"
+                android:textSize="32sp"
+                android:text="" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/HCGDisplay"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.49"
+                android:textSize="32sp"
+                android:text="HCG" />
+
+            <TextView
+                android:id="@+id/HCGValue"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.49"
+                android:textSize="32sp"
+                android:text="" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/BloodTypeDisplay"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.49"
+                android:textSize="32sp"
+                android:text="BloodType" />
+
+            <TextView
+                android:id="@+id/BloodTypeValue"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.49"
+                android:textSize="32sp"
+                android:text="" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

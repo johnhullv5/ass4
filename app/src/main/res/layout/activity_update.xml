@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hjian.ass4.UpdateActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/patientIDUpdate"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.49"
+                android:textSize="32sp"
+                android:text="patientID" />
+
+            <TextView
+                android:id="@+id/patientIDUpdateValue"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.49"
+                android:textSize="32sp"
+                android:text="" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/firstNameDisplay"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.49"
+                android:textSize="32sp"
+                android:text="firstName" />
+
+            <EditText
+                android:id="@+id/firstNameValue"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.49"
+                android:textSize="32sp"
+                android:text="" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/lastnameDisplay"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.49"
+                android:textSize="32sp"
+                android:text="lastname" />
+
+            <EditText
+                android:id="@+id/lastnameValue"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.49"
+                android:textSize="32sp"
+                android:text="" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/departmentDisplay"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.49"
+                android:textSize="32sp"
+                android:text="department" />
+
+            <EditText
+                android:id="@+id/departmentValue"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.49"
+                android:textSize="32sp"
+                android:text="" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/doctorDisplay"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.49"
+                android:textSize="32sp"
+                android:text="doctorID" />
+
+            <EditText
+                android:id="@+id/doctorValue"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.49"
+                android:textSize="32sp"
+                android:text="" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/roomDisplay"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.49"
+                android:textSize="32sp"
+                android:text="room" />
+
+            <EditText
+                android:id="@+id/roomValue"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.49"
+                android:textSize="32sp"
+                android:text="" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="137dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/updateButton"
+                android:layout_width="154dp"
+                android:layout_height="wrap_content"
+                android:text="Update"
+                android:onClick="updatePatient"/>
+
+            <TextView
+                android:id="@+id/updated"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Updated!"
+                android:visibility="invisible"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
